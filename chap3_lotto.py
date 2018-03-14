@@ -22,8 +22,16 @@ draw = [random.randint(1, 49), random.randint(1, 49), random.randint(1, 49),
 print(draw)
 
 # type less
-redraw = []
+redraw = [] # empty list
 while len(redraw) < 6:
         redraw.append(random.randint(1, 49))
 
 print(redraw)
+
+# what is the last number in a draw
+print(redraw[-1])
+print(redraw[-6])
+
+# break the boundary
+# print(redraw[7]) # IndexError: list index out of range
+# print(redraw[-7]) # IndexError: list index out of range
