@@ -15,9 +15,15 @@ print("#4:", number4)
 print("#5:", number5)
 print("#6:", number6)
 
-
 # type less
 draw = [random.randint(1, 49), random.randint(1, 49), random.randint(1, 49),
         random.randint(1, 49), random.randint(1, 49), random.randint(1, 49)]
 
 print(draw)
+
+# type less
+redraw = []
+while len(redraw) < 6:
+        redraw.append(random.randint(1, 49))
+
+print(redraw)
