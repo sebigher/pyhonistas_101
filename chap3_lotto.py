@@ -35,3 +35,7 @@ print(redraw[-6])
 # break the boundary
 # print(redraw[7]) # IndexError: list index out of range
 # print(redraw[-7]) # IndexError: list index out of range
+
+# are the Python lists heterogenous?
+
+
